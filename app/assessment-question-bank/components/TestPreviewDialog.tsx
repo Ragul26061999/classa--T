@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { doc, getDoc, updateDoc, deleteDoc } from 'firebase/firestore';
 import { db } from '../../../lib/firebaseClient';
 import { InlineMath, BlockMath } from 'react-katex';
-import 'katex/dist/katex.min.css';
 
 interface Question {
   id: string;

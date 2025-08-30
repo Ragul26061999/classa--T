@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import Sidebar from "../../components/Sidebar";
 import { db } from '../../../../lib/firebaseClient';
 import { collection, query, where, getDocs } from "firebase/firestore";
-import 'katex/dist/katex.min.css';
 import { BlockMath, InlineMath } from 'react-katex';
 import html2pdf from 'html2pdf.js';
 

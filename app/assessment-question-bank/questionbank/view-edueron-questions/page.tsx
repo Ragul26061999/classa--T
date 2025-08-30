@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { db } from '../../../../lib/firebaseClient';
 import { collection, query, where, getDocs, Query, doc, DocumentReference } from 'firebase/firestore';
 import { BlockMath, InlineMath } from 'react-katex';
-import 'katex/dist/katex.min.css';
 import { set as idbSet, get as idbGet } from 'idb-keyval';
 
 interface Question {
