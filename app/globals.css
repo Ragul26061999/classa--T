@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./assessment-question-bank/results/view/animations.css";
+@import 'katex/dist/katex.min.css';
 
 :root {
   --background: #f8fafc;

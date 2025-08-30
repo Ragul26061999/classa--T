@@ -826,8 +826,7 @@ export default function DiaryManagementPage() {
         <FontAwesomeIcon icon={faPlus} className="text-xl" />
       </button>
 
-      {/* Custom Styles */}
-      <link rel="stylesheet" href="./diary-styles.css" />
+      {/* Custom Styles removed: external stylesheet not found; use Tailwind or add to app/globals.css if needed */}
     </div>
   );
 }

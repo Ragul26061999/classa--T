@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { db } from '../../../lib/firebaseClient';
 import { collection, query, where, getDocs, doc, getDoc, Query, DocumentReference, updateDoc } from 'firebase/firestore';
 import { BlockMath, InlineMath } from 'react-katex';
-import 'katex/dist/katex.min.css';
 import SenseAIPickDialog from "./SenseAIPickDialog";
 
 interface Question {
