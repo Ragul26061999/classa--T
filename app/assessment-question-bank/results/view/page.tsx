@@ -4,7 +4,7 @@ import * as React from "react";
 import Sidebar from "@/app/assessment-question-bank/components/Sidebar";
 import Link from "next/link";
 import { useRef, useState, useEffect } from "react";
-import "./animations.css";
+// animations.css is imported globally via app/globals.css
 
 export default function ResultsViewPage() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
