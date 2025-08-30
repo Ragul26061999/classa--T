@@ -15,7 +15,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { db } from '../../../lib/firebaseClient';
 import { collection, query, where, getDocs, doc } from 'firebase/firestore';
-import 'katex/dist/katex.min.css';
 import { BlockMath, InlineMath } from 'react-katex';
 
 const cardData = [
